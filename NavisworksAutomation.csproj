@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AssemblyName>RunAutomation</AssemblyName>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Autodesk.Navisworks.Api">
+      <HintPath>C:\Program Files\Autodesk\Navisworks Manage 2024\Autodesk.Navisworks.Api.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+     <Reference Include="Autodesk.Navisworks.Api.Automation">
+      <HintPath>C:\Program Files\Autodesk\Navisworks Manage 2024\Autodesk.Navisworks.Api.Automation.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Autodesk.Navisworks.ComApi">
+        <HintPath>C:\Program Files\Autodesk\Navisworks Manage 2024\Autodesk.Navisworks.ComApi.dll</HintPath>
+        <Private>False</Private>
+    </Reference>
+    <Reference Include="Autodesk.Navisworks.Interop.ComApi">
+        <HintPath>C:\Program Files\Autodesk\Navisworks Manage 2024\Autodesk.Navisworks.Interop.ComApi.dll</HintPath>
+        <Private>False</Private>
+        <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+  </ItemGroup>
+
+</Project>

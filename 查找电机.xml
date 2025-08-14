@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://download.autodesk.com/us/navisworks/schemas/nw-exchange-12.0.xsd" units="m">
+  <selectionsets>
+    <selectionset name="查找所有电机" guid="b4e19946-814c-4239-81ac-c020d8d73b0d">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="contains" flags="10">
+            <property>
+              <name internal="LcOaNode/LcOaNodePropertyName">名称</name>
+            </property>
+            <value>
+              <string>电机</string>
+            </value>
+          </condition>
+        </conditions>
+        <locator>//*</locator>
+      </findspec>
+    </selectionset>
+  </selectionsets>
+</exchange> 
